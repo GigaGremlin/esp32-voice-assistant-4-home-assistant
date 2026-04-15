@@ -1,7 +1,9 @@
 # 🎙️ ESP32 Voice-Assistant für Home Assistant
 
+<div align="center">
   <img width="600" alt="VA-Moon" src="https://github.com/user-attachments/assets/c9c8cb89-40a4-4bee-bc80-fd2fa3c6d50e" />
 
+---
 ## Über dieses Projekt
 (ESP32-S3 WROOM-1-N16-R8) Home Assistant Voice Assistant Pro Version
 
@@ -38,7 +40,7 @@ Estimated market value for the finished Voice Assistant: €80–120
 Die notwendige Anschlussbelegung ist natürlich in die YAML-Datei integriert
 The necessary pin assignment is of course integrated into the YAML file.
 
-
+<div align="center">
   <img width="600" alt="Pinbelegung" src="https://github.com/user-attachments/assets/3639ec3c-d429-47fd-81cf-6061cc5eb183" />
 
 ---
@@ -64,8 +66,19 @@ Wähle die passende Version für deine Hardware:
   *Hier findest du YAML-Ausschnitte für Dashboards und Automatisierungen.*
 
 ---
+<div align="center">
   <img width="600" alt="InsideView" src="https://github.com/user-attachments/assets/c6c4eb46-9b17-49e7-bda7-7e0bb6c6b25a" />
 
+  
+---  
+# YouTube: ESP32 S3 Voice Assistant Pro
+
+<div align="center">
+  <a href="https://youtu.be/G6M7URdppqs">
+    <img src="https://img.youtube.com/vi/G6M7URdppqs/0.jpg" alt="Video Anleitung" width="500">
+  </a>
+  <p>📺 <i>Klicke auf das Bild, um das Video auf YouTube zu starten</i></p>
+</div>
 
 ---
 *Erstellt von [GigaGremlin / gigagremlin.de]*
