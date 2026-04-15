@@ -53,7 +53,7 @@ Wähle die passende Version für deine Hardware:
 * 📁 [Alle Firmware-Versionen durchsuchen](firmware/)
 
 ### 2. Tools & Personalisierung
-* 🖥️ [**GGFW Personalizer Tool (EXE)**](firmware/gui-tool/)
+* 🖥️ [**GGFW Personalizer Tool (EXE)**](gui-tool/)
   *Nutze dieses Tool, um WLAN-Daten und Namen direkt in der Firmware anzupassen.*
 
 ### 3. Gehäuse & 3D-Druck
