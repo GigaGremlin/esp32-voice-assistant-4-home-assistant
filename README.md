@@ -53,12 +53,11 @@ Wähle die passende Version für deine Hardware:
 * 📁 [Alle Firmware-Versionen durchsuchen](firmware/)
 
 ### 2. Tools & Personalisierung
-* 🖥️ [**GGFW Personalizer Tool (EXE)**](https://github.com/GigaGremlin/esp32-voice-assistant-4-home-assistant/releases/latest)
+* 🖥️ [**GGFW Personalizer Tool (EXE)**](firmware/gui-tool/)
   *Nutze dieses Tool, um WLAN-Daten und Namen direkt in der Firmware anzupassen.*
 
 ### 3. Gehäuse & 3D-Druck
 * 📐 [3D-Druck Dateien (STL)](3D-Print/)
-
 
 ### 4. Home Assistan - Integration
 * 🏠 [**Home Assistant Beispiel-Konfigurationen**](home-assistant-examples/)
