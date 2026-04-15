@@ -1,8 +1,6 @@
 # 🎙️ ESP32 Voice-Assistant für Home Assistant
 
-<div align="center">
-  <img src="images/VA-Moon.jpg" width="500" alt="Home Assistant Voice Assistant">
-</div>
+  <img width="600" alt="VA-Moon" src="https://github.com/user-attachments/assets/c9c8cb89-40a4-4bee-bc80-fd2fa3c6d50e" />
 
 ## Über dieses Projekt
 (ESP32-S3 WROOM-1-N16-R8) Home Assistant Voice Assistant Pro Version
@@ -40,8 +38,8 @@ Estimated market value for the finished Voice Assistant: €80–120
 Die notwendige Anschlussbelegung ist natürlich in die YAML-Datei integriert
 The necessary pin assignment is of course integrated into the YAML file.
 
-![Mein Voice Assistant](images/Pinbelegung.png)
 
+  <img width="600" alt="Pinbelegung" src="https://github.com/user-attachments/assets/3639ec3c-d429-47fd-81cf-6061cc5eb183" />
 
 ---
 
