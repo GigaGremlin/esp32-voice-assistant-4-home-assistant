@@ -1,0 +1,287 @@
+# Achtung vor der Nutzung müssen alle Vorkommen von esp32s3_va00 
+# durch den eigenen Modul-Namen ersetzt werden !!!
+################################################################
+type: grid
+cards:
+  - type: gauge
+    entity: sensor.esp32s3_va00_bewegungsenergie
+    needle: true
+    severity:
+      green: 0
+      yellow: 20
+      red: 60
+    theme: LCARS Lower Decks II
+    name: LabDesk-Bewegungsenergie
+  - type: gauge
+    entity: sensor.esp32s3_va00_distanz_stillstand
+    needle: true
+    severity:
+      green: 0
+      yellow: 20
+      red: 66
+    theme: LCARS Picard II
+    name: LabDesk-Distanz
+  - type: vertical-stack
+    title: LabDesk Radar
+    cards:
+      - type: horizontal-stack
+        cards:
+          - type: entities
+            entities:
+              - entity: switch.esp32s3_va00_engineering_modus
+                name: Engineering mode
+            state_color: true
+            title: Engineering Mode ON/OFF
+          - type: entities
+            entities:
+              - entity: switch.esp32s3_va00_bluetooth_ein_aus
+                name: Bluetooth mode
+            state_color: true
+            title: Bluetooth ON/OFF
+          - type: entities
+            entities:
+              - entity: light.esp32s3_va00_status_led
+                name: Status LED ON/OFF
+            state_color: true
+            title: Status LED
+      - type: vertical-stack
+        cards:
+          - type: entities
+            entities:
+              - entity: number.esp32s3_va00_timeout
+                name: timeout
+              - entity: number.esp32s3_va00_max_bewegungsdistanz
+                name: max move distance gate
+              - entity: sensor.esp32s3_va00_stillstandsenergie
+                name: max still distance gate
+              - entity: select.esp32s3_va00_licht_funktion
+                name: light function
+              - entity: number.esp32s3_va00_licht_schwellenwert
+                name: light threshold
+            state_color: true
+          - type: horizontal-stack
+            cards:
+              - type: entity
+                entity: sensor.esp32s3_va00_distanz_bewegung
+                name: distance
+                state_color: true
+              - type: entity
+                entity: number.esp32s3_va00_max_bewegungsdistanz
+                name: move
+                state_color: true
+              - type: entity
+                entity: sensor.esp32s3_va00_distanz_stillstand
+                name: still
+                state_color: true
+      - type: horizontal-stack
+        cards:
+          - type: entity
+            entity: sensor.esp32s3_va00_bewegungsenergie
+            name: move energy
+            state_color: true
+          - type: entity
+            entity: sensor.esp32s3_va00_stillstandsenergie
+            name: still energy
+            state_color: true
+      - type: horizontal-stack
+        cards:
+          - type: entity
+            entity: binary_sensor.esp32s3_va00_anwesenheit
+            name: gpio presence
+            state_color: true
+          - type: entity
+            entity: binary_sensor.esp32s3_va00_anwesenheit_via_out_pin
+            name: presence
+            state_color: true
+          - type: entity
+            entity: sensor.esp32s3_va00_bewegungsenergie
+            name: movement
+            state_color: true
+          - type: entity
+            entity: binary_sensor.esp32s3_va00_stillstand
+            name: still
+            state_color: true
+      - type: conditional
+        conditions:
+          - condition: state
+            entity: switch.esp32s3_va00_engineering_modus
+            state: "on"
+        card:
+          type: vertical-stack
+          cards:
+            - type: horizontal-stack
+              cards:
+                - type: entity
+                  entity: number.esp32s3_va00_licht_schwellenwert
+                  name: light
+                  state_color: true
+                - type: entity
+                  entity: binary_sensor.esp32s3_va00_anwesenheit_via_out_pin
+                  name: out pin presence
+                  state_color: true
+            - type: horizontal-stack
+              cards:
+                - type: entity
+                  entity: sensor.esp32s3_va00_g0_move_energy
+                  name: g0
+                  state_color: true
+                - type: entity
+                  entity: number.esp32s3_va00_g0_move_threshold
+                  name: " "
+                  state_color: true
+                - type: entity
+                  entity: sensor.esp32s3_va00_g0_still_energy
+                  name: " "
+                  state_color: true
+                - type: entity
+                  entity: number.esp32s3_va00_g0_still_threshold
+                  name: " "
+                  state_color: true
+            - type: horizontal-stack
+              cards:
+                - type: entity
+                  entity: sensor.esp32s3_va00_g1_move_energy
+                  name: g1
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g1_move_threshold
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: sensor.esp32s3_va00_g1_still_energy
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g1_still_threshold
+                  name: " "
+                  icon: " "
+            - type: horizontal-stack
+              cards:
+                - type: entity
+                  entity: sensor.esp32s3_va00_g2_move_energy
+                  name: g2
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g2_move_threshold
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: sensor.esp32s3_va00_g2_still_energy
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g2_still_threshold
+                  name: " "
+                  icon: " "
+            - type: horizontal-stack
+              cards:
+                - type: entity
+                  entity: sensor.esp32s3_va00_g3_move_energy
+                  name: g3
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g3_move_threshold
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: sensor.esp32s3_va00_g3_still_energy
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g3_still_threshold
+                  name: " "
+                  icon: " "
+            - type: horizontal-stack
+              cards:
+                - type: entity
+                  entity: sensor.esp32s3_va00_g4_move_energy
+                  name: g4
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g4_move_threshold
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: sensor.esp32s3_va00_g4_still_energy
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g4_still_threshold
+                  name: " "
+                  icon: " "
+            - type: horizontal-stack
+              cards:
+                - type: entity
+                  entity: sensor.esp32s3_va00_g5_move_energy
+                  name: g5
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g5_move_threshold
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: sensor.esp32s3_va00_g5_still_energy
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g5_still_threshold
+                  name: " "
+                  icon: " "
+            - type: horizontal-stack
+              cards:
+                - type: entity
+                  entity: sensor.esp32s3_va00_g6_move_energy
+                  name: g6
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g6_move_threshold
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: sensor.esp32s3_va00_g6_still_energy
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g6_still_threshold
+                  name: " "
+                  icon: " "
+            - type: horizontal-stack
+              cards:
+                - type: entity
+                  entity: sensor.esp32s3_va00_g7_move_energy
+                  name: g7
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g7_move_threshold
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: sensor.esp32s3_va00_g7_still_energy
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g7_still_threshold
+                  name: " "
+                  icon: " "
+            - type: horizontal-stack
+              cards:
+                - type: entity
+                  entity: sensor.esp32s3_va00_g8_move_energy
+                  name: g8
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g8_move_threshold
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: sensor.esp32s3_va00_g8_still_energy
+                  name: " "
+                  icon: " "
+                - type: entity
+                  entity: number.esp32s3_va00_g8_still_threshold
+                  name: " "
+                  icon: " "
+    grid_options:
+      columns: full
+      rows: 8
+column_span: 2
