@@ -1,6 +1,8 @@
 # 🎙️ ESP32 Voice-Assistant für Home Assistant
 
-![Mein Voice Assistant](images/VA-Moon.jpg)
+<div align="center">
+  <img src="images/VA-Moon.jpg" width="500" alt="Home Assistant Voice Assistant">
+</div>
 
 ## Über dieses Projekt
 (ESP32-S3 WROOM-1-N16-R8) Home Assistant Voice Assistant Pro Version
@@ -48,8 +50,8 @@ The necessary pin assignment is of course integrated into the YAML file.
 Wähle die passende Version für deine Hardware:
 
 ### 1. Firmware (YAML Dateien)
-* 📥 [**Standard Version**](firmware/standard/voice_assistant_standard.yaml) – Ohne Radar-Modul.
-* 📥 [**Radar Version**](firmware/radar/voice_assistant_radar.yaml) – Optimiert für Anwesenheitserkennung.
+* 📥 [**Standard Version**](firmware/standard/) – Ohne Radar-Modul.
+* 📥 [**Radar Version**](firmware/radar/) – Optimiert für Anwesenheitserkennung.
 * 📁 [Alle Firmware-Versionen durchsuchen](firmware/)
 
 ### 2. Tools & Personalisierung
