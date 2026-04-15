@@ -1,0 +1,3 @@
+Um das lästige “Kratzen” oder auch den “DigiFart“ des Lautsprechers beim Booten zu vermeiden verwende ich zwei WAV-Dateien bei der Initialisierung und vermeide damit die Störgeräusche so gut es geht. Die letzten HA-Updates machen es aber nicht leicht hierfür das richtige Timing zu bestimmen.
+
+To avoid the annoying "scratching" or "DigiFart" sound from the speaker during boot, I use two WAV files during initialization, thus minimizing the interference as much as possible. However, recent HA updates have made it difficult to determine the correct timing for this.
