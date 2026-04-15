@@ -59,7 +59,7 @@ Wähle die passende Version für deine Hardware:
   *Nutze dieses Tool, um WLAN-Daten und Namen direkt in der Firmware anzupassen.*
 
 ### 3. Gehäuse & 3D-Druck
-* 📐 [3D-Druck Dateien (STL)](hardware/3d-print/)
+* 📐 [3D-Druck Dateien (STL)](3D-Print/)
 
 
 ### 4. Home Assistan - Integration
