@@ -7,11 +7,12 @@ Schlafzimmer eignet und sich auch über eine Mobile Verbindung gut nutzen lässt
 
 ## 📊 Dashboard Vorschau
 
-Normalmodus / Standard
+**Normalmodus / Standard**
+
 <img width="800" alt="Radar-S3ProCombi-1-HA" src="https://github.com/user-attachments/assets/566f49be-c530-4735-addb-702505874301" />
 
 
-Engineering Modus eingeschaltet
+**Engineering Modus eingeschaltet**
 <img width="800" alt="Radar-S3ProCombi-2-HA" src="https://github.com/user-attachments/assets/96e8863f-ca00-4b4a-b913-1f10248f5ef4" />
 
 
