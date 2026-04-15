@@ -64,4 +64,8 @@ Wähle die passende Version für deine Hardware:
   *Hier findest du YAML-Ausschnitte für Dashboards und Automatisierungen.*
 
 ---
+  <img width="1272" height="1060" alt="InsideView" src="https://github.com/user-attachments/assets/c6c4eb46-9b17-49e7-bda7-7e0bb6c6b25a" />
+
+
+---
 *Erstellt von [GigaGremlin / gigagremlin.de]*
