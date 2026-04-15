@@ -61,5 +61,10 @@ Wähle die passende Version für deine Hardware:
 ### 3. Gehäuse & 3D-Druck
 * 📐 [3D-Druck Dateien (STL)](hardware/3d-print/)
 
+
+### 4. Home Assistan - Integration
+* 🏠 [**Home Assistant Beispiel-Konfigurationen**](home-assistant-examples/)
+  *Hier findest du YAML-Ausschnitte für Dashboards und Automatisierungen.*
+
 ---
 *Erstellt von [GigaGremlin / gigagremlin.de]*
