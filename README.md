@@ -78,16 +78,21 @@ Wähle die passende Version für deine Hardware:
 
 ### 2. Tools & Personalisierung
 * 🖥️ [**GGFW Personalizer Tool (EXE)**](gui-tool/)
-  *Nutze dieses Tool, um WLAN-Daten und Namen direkt in der Firmware anzupassen.*
+  
+**Nutze dieses Tool, um WLAN-Daten und Namen direkt in der Firmware anzupassen.**
 
 ### 3. Gehäuse & 3D-Druck
 * 📐 [3D-Druck Dateien (STL)](3D-Print/)
 
+**Es gibt jetzt auch eine neue universal 2,5"-Speaker-Halterung die mit M4 Schrauben funktioniert.**
+
 ### 4. Home Assistant - Integration
 * 🏠 [**Home Assistant Beispiel-Konfigurationen**](home-assistant-examples/)
-  *Hier findest du YAML-Ausschnitte für Dashboards und Automatisierungen.*
 
-</div>
+**Hier findest du YAML-Ausschnitte für Dashboards und Automatisierungen.**
+
+</div></div>
+
 ---
 <div align="left">
   Erstellt durch <b><a href="https://gigagremlin.de">GigaGremlin</a></b>
