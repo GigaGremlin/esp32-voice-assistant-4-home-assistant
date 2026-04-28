@@ -94,6 +94,14 @@ Wähle die passende Version für deine Hardware:
 </div></div>
 
 ---
-<div align="left">
-  Erstellt durch <b><a href="https://gigagremlin.de">GigaGremlin</a></b>
+
+<div align="center">
+<i>Zuletzt aktualisiert: April 2026</i>
+</div>
+
+</div></div>   
+<div align="center">
+   <a href="https://gigagremlin.de">
+    <img src="https://img.shields.io/badge/Made%20by-GigaGremlin-blue?style=for-the-badge" alt="GigaGremlin Website" />
+  </a>
 </div>
