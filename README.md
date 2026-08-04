@@ -52,9 +52,23 @@ Regarding price and performance, this Voice Assistant for Home Assistant is stil
 </div></div>
 
 ---
+<div align="center">
+<img width="1780" height="1001" alt="OldPinOut" src="https://github.com/user-attachments/assets/c61b4f29-c43c-4f6b-93c3-e1e6ee75760e" />
+</div></div>
+
+---
 
 <div align="center">
   <img width="800" alt="InsideView" src="https://github.com/user-attachments/assets/c6c4eb46-9b17-49e7-bda7-7e0bb6c6b25a" />
+</div></div>
+
+---
+**Achtung - Da ich für meine letzten S3 Module die preiswerten Versionen von Ali gekauft habe, ist es mir nicht gelungen die gleiche Konfiguration zum laufen zu bringen wie bei den Marken Modulen.**
+Jetzt verstehe ich auch die Probleme, die einige von Euch beim Nachbau hatten. Um diese Probleme direkt im Kein zu beseitigen, habe ich nun doch die GPIO's für den MAX98357 und das INMP441 getrennt und eine Neue Firmware dafür erstellt.
+Mit dieser Änderung funktionieren dann auch die Clon-Module als Voice Assistant und Music Assistant Satelliten. Und das lästige Störgeräusch beim Booten ist damit ebenfalls Geschichte.
+---
+<div align="center">
+<img width="1758" height="989" alt="NewPinOut" src="https://github.com/user-attachments/assets/70ba4db3-5a9c-44b0-86f1-cea102ede2b1" />
 </div></div>
 
 ---
@@ -78,6 +92,7 @@ Wähle die passende Version für deine Hardware:
 ### 1. Firmware (YAML Dateien)
 * 📥 [**Standard Version**](firmware/standard/) – Ohne Radar-Modul.
 * 📥 [**Radar Version**](firmware/radar/) – Optimiert für Anwesenheitserkennung.
+* 📥 [**New PinOut Version**](firmware/new/) – Optimiert für alle S3 Module.
 * 📁 [Alle Firmware-Versionen durchsuchen](firmware/)
 
 ### 2. Tools & Personalisierung
