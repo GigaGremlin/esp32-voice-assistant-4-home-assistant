@@ -63,9 +63,12 @@ Regarding price and performance, this Voice Assistant for Home Assistant is stil
 </div></div>
 
 ---
-**Achtung - Da ich für meine letzten S3 Module die preiswerten Versionen von Ali gekauft habe, ist es mir nicht gelungen die gleiche Konfiguration zum laufen zu bringen wie bei den Marken Modulen.**
-Jetzt verstehe ich auch die Probleme, die einige von Euch beim Nachbau hatten. Um diese Probleme direkt im Kein zu beseitigen, habe ich nun doch die GPIO's für den MAX98357 und das INMP441 getrennt und eine Neue Firmware dafür erstellt.
-Mit dieser Änderung funktionieren dann auch die Clon-Module als Voice Assistant und Music Assistant Satelliten. Und das lästige Störgeräusch beim Booten ist damit ebenfalls Geschichte.
+* **Achtung !!!** - Da ich für meine letzten S3 Module die preiswerten Versionen von Ali gekauft habe und es mir nicht gelungen ist darauf die gleiche Standardkonfiguration zum laufen zu bringen, wie bei meinen Marken Modulen,
+verstehe ich jetzt auch die Probleme, die einige von Euch beim Nachbau hatten.
+* Um diese Probleme direkt zu beseitigen, habe ich nun doch die GPIO's für den MAX98357 und das INMP441 getrennt und eine eigene Firmware, basierend auf der neuen Verkabelung erstellt.
+* Mit dieser Änderung funktionieren dann auch die Klon-Module als Voice Assistant und Music Assistant Satelliten. 
+* Und das lästige Störgeräusch beim Booten ist damit ebenfalls Geschichte.
+* **Das Video zur Neuerung ist noch in Arbeit**
 ---
 <div align="center">
 <img width="1758" height="989" alt="NewPinOut" src="https://github.com/user-attachments/assets/70ba4db3-5a9c-44b0-86f1-cea102ede2b1" />
@@ -89,12 +92,17 @@ Mit dieser Änderung funktionieren dann auch die Clon-Module als Voice Assistant
 
 Wähle die passende Version für deine Hardware:
 
-### 1. Firmware (YAML Dateien)
+### 1. Firmware old PinOut Version (YAML Dateien)
 * 📥 [**Standard Version**](firmware/standard/) – Ohne Radar-Modul.
 * 📥 [**Radar Version**](firmware/radar/) – Optimiert für Anwesenheitserkennung.
-* 📥 [**New PinOut Version**](firmware/new/) – Optimiert für alle S3 Module.
+* *******************************************************************************
+### 2. Firmware new PinOut Version (YAML Dateien)
+**(Achtung - Bitte nur noch die Neue Version verwenden !!!)**
+* 📥 [**New PinOut Version - Radar Version**](firmware/new/) – Optimiert für alle S3 Module.
+* 📥 **New PinOut Version - Version - Ohne Radar-Modul** --- **Demnächst hier als Download**
+* *******************************************************************************
 * 📁 [Alle Firmware-Versionen durchsuchen](firmware/)
-
+* *******************************************************************************
 ### 2. Tools & Personalisierung
 * 🖥️ [**GGFW Personalizer Tool (EXE)**](gui-tool/)
   
