@@ -123,7 +123,7 @@ Wähle die passende Version für deine Hardware:
 ---
 
 <div align="center">
-<i>Zuletzt aktualisiert: April 2026</i>
+<i>Zuletzt aktualisiert: August 2026</i>
 </div>
 
 </div></div>   
