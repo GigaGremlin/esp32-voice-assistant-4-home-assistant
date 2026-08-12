@@ -98,22 +98,40 @@ Wähle die passende Version für deine Hardware:
 * *******************************************************************************
 ### 2. Firmware new PinOut Version (YAML Dateien)
 **(Achtung - Bitte nur noch die Neue Version verwenden !!!)**
-* 📥 [**New PinOut Version - Radar Version**](firmware/new/) – Optimiert für alle S3 Module.
-* 📥 **New PinOut Version - Version - Ohne Radar-Modul** --- **Demnächst hier als Download**
+* 📥 [**New PinOut Version - Universal Version**](firmware/new/) – Optimiert für alle S3 Module.
+  
+**Aber was, wenn ich kein Radar-Modul will ??!**
+
+... kein Problem, dann diese Kabel einfach weglassen...
+Meine neue Firmware-GUI Version kann jetzt beide Varianten aus der 
+neuen Universal-Firmware für Deine Home Assistant Ansprüche erstellen. 
+
+Wer kein LD2410 Radar Modul nutzt, kann einfach den Haken in der GUI weglassen. 
+Die Standardeinstellung ist ausgeschaltet, aber alle anderen sollten den Haken setzen! 
+Hier kann jetzt auch direkt an einigen anderen “Stellschrauben“ gedreht werden.
+
 * *******************************************************************************
 * 📁 [Alle Firmware-Versionen durchsuchen](firmware/)
 * *******************************************************************************
-### 2. Tools & Personalisierung
+
+### 3. Tools & Personalisierung
+**Achtung !!!** - für die NEUE universal Firmware gibt 
+
+es auch ein neues GuiTool, **New-ESPhome_GUI.exe**
+
 * 🖥️ [**GGFW Personalizer Tool (EXE)**](gui-tool/)
+* 🖥️ [**New-ESPhome_GUI (EXE)**](gui-tool/)
   
 **Nutze dieses Tool, um WLAN-Daten und Namen direkt in der Firmware anzupassen.**
+* *******************************************************************************
 
-### 3. Gehäuse & 3D-Druck
+### 4. Gehäuse & 3D-Druck
 * 📐 [3D-Druck Dateien (STL)](3D-Print/)
 
 **Es gibt jetzt auch eine neue universal 2,5"-Speaker-Halterung die mit M4 Schrauben funktioniert.**
+* *******************************************************************************
 
-### 4. Home Assistant - Integration
+### 5. Home Assistant - Integration
 * 🏠 [**Home Assistant Beispiel-Konfigurationen**](home-assistant-examples/)
 
 **Hier findest du YAML-Ausschnitte für Dashboards und Automatisierungen.**
