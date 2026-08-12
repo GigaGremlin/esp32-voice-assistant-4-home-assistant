@@ -1,0 +1,18 @@
+Unterschiedliche HW-Versionen des S3
+
+Da ich für meine letzten S3 Module die preiswerten Versionen von Ali gekauft habe 
+und es mir nicht gelungen ist darauf die gleiche Standardkonfiguration zum laufen zu bringen, 
+wie bei meinen Marken Modulen, verstehe ich jetzt auch die Probleme, die einige von Euch beim Nachbau hatten.
+Um diese Probleme direkt zu beseitigen, habe ich nun doch die GPIO's für den MAX98357 und das INMP441
+getrennt und eine eigene Firmware, basierend auf der neuen Verkabelung erstellt.
+Mit dieser Änderung funktionieren dann auch die Klon-Module als Voice Assistant und Music Assistant Satelliten.
+Und das lästige Störgeräusch beim Booten ist damit ebenfalls Geschichte.
+
+Aber was, wenn ich kein Radar-Modul will?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+... kein Problem, dann diese Kabel einfach weglassen...
+Meine neue Firmware-GUI Version kann jetzt beide Varianten aus der neuen Universal-Firmware für 
+Deine Home Assistant Ansprüche erstellen. 
+Wer kein LD2410 Radar Modul nutzt, kann einfach den Haken in der GUI weglassen. 
+Die Standardeinstellung ist ausgeschaltet, aber alle anderen sollten den Haken setzen! 
+Hier kann jetzt auch direkt an einigen anderen “Stellschrauben“ gedreht werden.
