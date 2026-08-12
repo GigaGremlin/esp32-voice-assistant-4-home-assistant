@@ -13,3 +13,9 @@ and saves time. Furthermore, I strongly recommend using a static IP address for 
 
 ---
 <img width="532" height="532" alt="GigGremlinFirmwarePersonalizerGUI-2" src="https://github.com/user-attachments/assets/b0169bcf-cfb1-4aa2-920f-084fce17143f" />
+
+---
+# **Achtung** - neues Firmware GUI für das **NEUE** Pin Layout !!!
+
+---
+<img width="10240" height="5760" alt="GG-VA-FWTool" src="https://github.com/user-attachments/assets/87f38912-0ce3-4951-9b94-56dd0fe0f08a" />
